@@ -9,7 +9,7 @@ The code opens the file, compresses it and saves it. Then the code loads that fi
 **-Encoding**  
 This function compresses the input file using a dictionary of 12 bit elements.  
 
-**-Decodiong**  
+**-Decoding**  
 This function decompresses the file.
 
 **-Save**  
