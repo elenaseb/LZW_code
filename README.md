@@ -1,6 +1,6 @@
 # How to compile and run the code
 
-The code is composed of four function (encoding, decoding, save and load) and of a main included in a single source file "lzw_prova_2.cpp".   
+The code is composed of four function (encoding, decoding, save and load) and of a main included in a single source file "LZW.cpp".   
 To run the code the user has to write the file that he wants to compress (line 170) and name and extension for the output compressed one (line 171). The output of the code is the compressed file. 
 
 **-Main**    
