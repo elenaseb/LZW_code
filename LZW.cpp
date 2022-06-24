@@ -161,14 +161,15 @@ vector<int> load(const char* file) {
     return output;
 }
 
-int main()
-{
-    const char* input_file_name;
-    const char* output_file_name;
+int main(int argc, char** argv) {
+
     unsigned char* input;
 
-    input_file_name = "Divina Commedia - inferno.txt";
-    output_file_name = "Divina Commedia_compressed.txt";
+    const char*  input_file_name = argv[1];
+    const char* output_file_name = argv[2];
+    
+    cout << input_file_name << endl;
+    cout << output_file_name << endl;
 
     FILE* pFile;
     fopen_s(&pFile, input_file_name, "rb");
