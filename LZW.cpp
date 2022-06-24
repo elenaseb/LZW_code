@@ -31,7 +31,7 @@ vector<unsigned short> encoding(unsigned char* input, int size)
 
     current_string += input[0];
      
-    while (i <= size) {
+    while (i < size) {
         c += input[i];
         if (dict.find(current_string + c) != dict.end()) {
             current_string = current_string + c; // If key is found in the dictionary current string is updated;
@@ -47,7 +47,7 @@ vector<unsigned short> encoding(unsigned char* input, int size)
         c = "";
         i++;
     }
-
+    output.push_back(dict[current_string]);
     return output;
 }
 
