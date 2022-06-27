@@ -18,7 +18,7 @@ This function saves the compressed file storing two values (that are at most 12-
 **-Load**  
 This function loads the compressed file writing two bytes in three int.  
 
-To **compile** the code from a terminal window, move into this folder and type the following commands:  
+To **compile** (Windows) the code from a terminal window, move into this folder and type the following commands:  
 
 ```
 g++ LZW.cpp -o LZW 
