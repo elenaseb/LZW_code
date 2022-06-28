@@ -191,7 +191,6 @@ int main(int argc, char** argv) {
   
     //encode input
     vector<unsigned short> encode = encoding(input, size);
-    int lung = encode.size();
 
     //save encode file
     save(encode, output_file_name);
