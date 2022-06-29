@@ -212,7 +212,7 @@ int main(int argc, char** argv) {
         }
         cout << "Encode and decode have same dimension" << endl;
         
-        bool zeros = all_of(c.begin(), c.end(), [](int i) { return i == 0; }); //if each b value is 0 --> zeros == 1;
+        bool zeros = all_of(c.begin(), c.end(), [](int i) { return i == 0; }); //if each c value is 0 --> zeros == 1;
 
         if (zeros == 1)
            cout << "Input and decode vector are equal" << endl;
