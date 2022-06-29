@@ -208,9 +208,7 @@ int main(int argc, char** argv) {
     if (a == size) {
         for (int i = 0; i < size; i++) {
             c.push_back((uint8_t)input[i] - (uint8_t)decode[i]);
-            if (c[i] != 0)
-                int f = 1;
-            
+  
         }
         cout << "Encode and decode have same dimension" << endl;
         
